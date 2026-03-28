@@ -1,0 +1,5 @@
+backend: C:\Mis_Proyectos\ticket-backend>npm run dev
+
+
+admin@123.cl
+12345
