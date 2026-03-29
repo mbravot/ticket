@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -X POST http://localhost:3000/api/auth/login -H \"Content-Type: application/json\" -d \"{\"\"email\"\":\"\"admin@123.cl\"\",\"\"password\"\":\"\"12345\"\"}\")",
+      "Bash(node -e \"const d=require\\(''''fs''''\\).readFileSync\\(''''/dev/stdin'''',''''utf8''''\\); const r=JSON.parse\\(d\\); const p=JSON.parse\\(Buffer.from\\(r.token.split\\(''''.''''\\)[1],''''base64''''\\).toString\\(\\)\\); console.log\\(JSON.stringify\\(p,null,2\\)\\)\")"
+    ]
+  }
+}
